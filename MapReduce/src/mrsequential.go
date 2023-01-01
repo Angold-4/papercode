@@ -75,7 +75,7 @@ func main() {
     intermediate = append(intermediate, kva...)
   }
 
-  fmt.Print(intermediate) // debug
+  // fmt.Print(intermediate) // debug
 
   sort.Sort(ByKey(intermediate))
 
